@@ -151,3 +151,38 @@ body {
     display: flex;
     justify-content: flex-end;
 }
+
+/* Call to Action Section */
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    color: #F9FAF8;
+    padding: 64px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    background-color: #3882F6;
+    padding: 48px;
+    border-radius: 8px;
+}
+
+.call-to-action h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.cta-signup {
+    padding: 8px 24px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 3px solid white;
+    cursor: pointer;
+}
