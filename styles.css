@@ -38,7 +38,7 @@ body {
 }
 
 .header-logo,
-ul {
+.header ul {
     color: #F9FAF8;
 }
 
@@ -59,6 +59,7 @@ ul {
     justify-content: center;
     background-color: #1F2937;
     padding: 60px 80px;
+    flex-grow: 1;
 }
 
 .hero-section h1 {
@@ -86,4 +87,36 @@ ul {
 
 .hero-section img {
     margin-left: 24px;
+}
+
+/* Random information section */
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-grow: 1;
+    padding: 48px;
+}
+
+.random-info h1 {
+    font-size: 38px;
+}
+
+.random-info ul {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.random-info li {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+}
+
+.random-info img {
+    border-radius: 8px;
+    border: 3px solid #3882F6;
+    margin-bottom: 8px;
 }
