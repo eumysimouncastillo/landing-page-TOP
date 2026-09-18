@@ -49,3 +49,10 @@ ul {
     justify-content: center;
     padding: 24px;
 }
+
+/* Hero Section */
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+}
