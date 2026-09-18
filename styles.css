@@ -9,4 +9,31 @@ body {
 
 .header {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.header ul {
+    display: flex;
+    gap: 16px;
+}
+
+.header li {
+    list-style-type: none;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header-logo,
+ul {
+    color: #F9FAF8;
 }
